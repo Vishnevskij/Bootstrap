@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    
+        
 }
 
 .flex {
@@ -16,16 +16,26 @@ body {
 header {
     width:100%;
     height:auto;
-    padding:1rem;
+    padding:0.8rem;
     align-items: center;
     justify-content: space-between;
     
+}
+
+header h5 {
+    display:flex;
+    font-weight:400;
+    font-size:18px;
+    align-items: center;
+    margin-top:5px;
 }
 header nav {
     width:auto;
     height:auto;
     align-items: center;
+    
 }
+header nav .btn {font-size:14px;}
 header nav .btn-link {
     text-decoration: none;
     }
